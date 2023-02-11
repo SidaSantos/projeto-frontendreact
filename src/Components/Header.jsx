@@ -24,7 +24,7 @@ const HeaderArea = styled.header`
 
 export const Header = () => {
   const user = getItem("usuario");
-  const name = user.name.split("");
+  //const name = user.name.split("");
   return (
     <HeaderArea>
       <Link to="/">Store</Link>
