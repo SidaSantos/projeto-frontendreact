@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { getItem } from "../Serviços/LocalStoragefuncs";
+//import { getItem } from "../Serviços/LocalStoragefuncs";
 
 const HeaderArea = styled.header`
   display: flex;
@@ -23,7 +23,7 @@ const HeaderArea = styled.header`
 `;
 
 export const Header = () => {
-  const user = getItem("usuario");
+  //const user = getItem("usuario");
   //const name = user.name.split("");
   return (
     <HeaderArea>
